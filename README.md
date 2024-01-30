@@ -1,6 +1,6 @@
 # EMDD
 
-The code and data for the paper "Towards evaluation of fairness in MDD models: Automatic analysis of symptom differences for gender groups in the D-vlog dataset"
+The code and data used for the paper "Towards evaluation of fairness in MDD models: Automatic analysis of symptom differences for gender groups in the D-vlog dataset"
 
 ## Bibliography
 
