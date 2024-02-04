@@ -35,7 +35,7 @@ class SingleDiseaseDataset(Dataset):
         main_feats = pickle.load(open(os.path.join(input_dir, f"{split}.pkl"), "rb"))
         other_feats = pickle.load(open(os.path.join(input_dir, f"{split}_other_feats.pkl"), "rb"))
         for main_feat, other_feat in zip(main_feats, other_feats):
-            diseases = main_feat["diseases"]
+            diseases = main_feat['diseases']
             if len(diseases) > 0 and sel_disease not in diseases:
                 continue
             probs = main_feat['probs']
@@ -113,13 +113,13 @@ class SingleDiseaseDataModule(pl.LightningDataModule):
         
 
     def train_dataloader(self):
-        return DataLoader(self.train_set, batch_size=self.bs, shuffle=True, pin_memory=True, num_workers=4, collate_fn=my_collate_fn)
+        return DataLoader(self.train_set, batch_size=self.bs, shuffle=True, pin_memory=True, num_workers=2, collate_fn=my_collate_fn)
 
     def val_dataloader(self):
-        return DataLoader(self.val_set, batch_size=self.bs, pin_memory=True, num_workers=4, collate_fn=my_collate_fn)
+        return DataLoader(self.val_set, batch_size=self.bs, pin_memory=True, num_workers=2, collate_fn=my_collate_fn)
 
     def test_dataloader(self):
-        return DataLoader(self.test_set, batch_size=self.bs, pin_memory=True, num_workers=4, collate_fn=my_collate_fn)
+        return DataLoader(self.test_set, batch_size=self.bs, pin_memory=True, num_workers=2, collate_fn=my_collate_fn)
 
 if __name__ == "__main__":
     data_module = SingleDiseaseDataModule(4, "./symp_dataset_tiny", 256, 'emb', True, True, 'depression')
