@@ -132,3 +132,18 @@ Classification Report:
 weighted avg       0.72      0.67      0.66       201
 
 Cross validation folds:15
+Best Estimator:
+SVC(C=1000.0, class_weight='balanced', gamma=10.0, probability=True,
+    random_state=0)
+
+Classification Report:
+              precision    recall  f1-score   support
+
+  depression       0.75      0.49      0.59       106
+      normal       0.59      0.82      0.69        95
+
+    accuracy                           0.65       201
+   macro avg       0.67      0.66      0.64       201
+weighted avg       0.68      0.65      0.64       201
+
+Cross validation folds:15
