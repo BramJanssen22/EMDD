@@ -24,7 +24,7 @@ def main(args):
     ckpt_dir = args.ckpt_dir
     split = args.infer_split
     hparams_dir = os.path.join(dirname(dirname(ckpt_dir)), 'hparams.yaml')
-    hparams = yaml.load(open(hparams_dir))
+    hparams = yaml.load(open(hparams_dir),Loader=yaml.Loader)
     max_len = hparams["max_len"]
     uncertain = hparams["uncertain"]
     exp_name = hparams["exp_name"]

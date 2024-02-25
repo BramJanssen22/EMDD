@@ -1,0 +1,134 @@
+Best Estimator:
+SVC(C=10.0, class_weight='balanced', gamma=1000.0, probability=True,
+    random_state=0)
+
+Classification Report:
+              precision    recall  f1-score   support
+
+  depression       0.76      0.71      0.73       112
+      normal       0.66      0.72      0.69        89
+
+    accuracy                           0.71       201
+   macro avg       0.71      0.71      0.71       201
+weighted avg       0.72      0.71      0.71       201
+
+Cross validation folds:15
+Best Estimator:
+SVC(C=1000.0, class_weight='balanced', gamma=10.0, probability=True,
+    random_state=0)
+
+Classification Report:
+              precision    recall  f1-score   support
+
+  depression       0.80      0.56      0.66       119
+      normal       0.56      0.79      0.65        82
+
+    accuracy                           0.66       201
+   macro avg       0.68      0.68      0.66       201
+weighted avg       0.70      0.66      0.66       201
+
+Cross validation folds:15
+Best Estimator:
+SVC(C=10.0, class_weight='balanced', gamma=1000.0, probability=True,
+    random_state=0)
+
+Classification Report:
+              precision    recall  f1-score   support
+
+  depression       0.74      0.66      0.70       114
+      normal       0.61      0.70      0.65        87
+
+    accuracy                           0.68       201
+   macro avg       0.68      0.68      0.68       201
+weighted avg       0.69      0.68      0.68       201
+
+Cross validation folds:15
+Best Estimator:
+SVC(C=1000.0, class_weight='balanced', gamma=10.0, probability=True,
+    random_state=0)
+
+Classification Report:
+              precision    recall  f1-score   support
+
+  depression       0.78      0.65      0.71       110
+      normal       0.65      0.78      0.71        91
+
+    accuracy                           0.71       201
+   macro avg       0.71      0.71      0.71       201
+weighted avg       0.72      0.71      0.71       201
+
+Cross validation folds:15
+Best Estimator:
+SVC(C=1000.0, class_weight='balanced', gamma=10.0, probability=True,
+    random_state=0)
+
+Classification Report:
+              precision    recall  f1-score   support
+
+  depression       0.79      0.59      0.68       113
+      normal       0.60      0.80      0.69        88
+
+    accuracy                           0.68       201
+   macro avg       0.70      0.69      0.68       201
+weighted avg       0.71      0.68      0.68       201
+
+Cross validation folds:15
+Best Estimator:
+SVC(C=1000.0, class_weight='balanced', gamma=100.0, probability=True,
+    random_state=0)
+
+Classification Report:
+              precision    recall  f1-score   support
+
+  depression       0.67      0.64      0.66       106
+      normal       0.62      0.65      0.64        95
+
+    accuracy                           0.65       201
+   macro avg       0.65      0.65      0.65       201
+weighted avg       0.65      0.65      0.65       201
+
+Cross validation folds:15
+Best Estimator:
+SVC(C=10.0, class_weight='balanced', gamma=1000.0, probability=True,
+    random_state=0)
+
+Classification Report:
+              precision    recall  f1-score   support
+
+  depression       0.69      0.69      0.69       105
+      normal       0.66      0.67      0.66        96
+
+    accuracy                           0.68       201
+   macro avg       0.68      0.68      0.68       201
+weighted avg       0.68      0.68      0.68       201
+
+Cross validation folds:15
+Best Estimator:
+SVC(C=10.0, class_weight='balanced', gamma=1000.0, probability=True,
+    random_state=0)
+
+Classification Report:
+              precision    recall  f1-score   support
+
+  depression       0.72      0.66      0.69       108
+      normal       0.64      0.71      0.67        93
+
+    accuracy                           0.68       201
+   macro avg       0.68      0.68      0.68       201
+weighted avg       0.69      0.68      0.68       201
+
+Cross validation folds:15
+Best Estimator:
+SVC(class_weight='balanced', gamma=1.0, probability=True, random_state=0)
+
+Classification Report:
+              precision    recall  f1-score   support
+
+  depression       0.83      0.52      0.64       114
+      normal       0.58      0.86      0.69        87
+
+    accuracy                           0.67       201
+   macro avg       0.70      0.69      0.66       201
+weighted avg       0.72      0.67      0.66       201
+
+Cross validation folds:15

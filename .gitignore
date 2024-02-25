@@ -1,3 +1,5 @@
-Papierwerk/
-PsySym/data/
-
+*.csv
+*.json
+*.pkl
+lightning_logs/
+*_output/
