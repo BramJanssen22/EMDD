@@ -177,3 +177,115 @@ weighted avg       0.92      0.92      0.92       401
 Cross validation folds:3
 
 Scoring metric:accuracy
+Best Params:
+{'C': 10.0, 'gamma': 0.001, 'kernel': 'rbf'}
+Best Estimator:
+SVC(C=10.0, class_weight='balanced', gamma=0.001, probability=True,
+    random_state=0)
+
+Classification Report:
+              precision    recall  f1-score   support
+
+  depression       0.95      0.91      0.93       228
+      normal       0.89      0.94      0.91       173
+
+    accuracy                           0.92       401
+   macro avg       0.92      0.92      0.92       401
+weighted avg       0.92      0.92      0.92       401
+
+Cross validation folds:3
+
+Scoring metric:accuracy
+Best Params:
+{'C': 1.0, 'gamma': 0.001, 'kernel': 'rbf'}
+Best Estimator:
+SVC(class_weight='balanced', gamma=0.001, probability=True, random_state=0)
+
+Classification Report:
+              precision    recall  f1-score   support
+
+  depression       0.91      0.88      0.90       396
+      normal       0.86      0.89      0.88       325
+
+    accuracy                           0.89       721
+   macro avg       0.89      0.89      0.89       721
+weighted avg       0.89      0.89      0.89       721
+
+Cross validation folds:3
+
+Scoring metric:accuracy
+Best Params:
+{'C': 0.001, 'gamma': 0.001, 'kernel': 'rbf'}
+Best Estimator:
+SVC(C=0.001, class_weight='balanced', gamma=0.001, probability=True,
+    random_state=0)
+
+Classification Report:
+              precision    recall  f1-score   support
+
+  depression       0.00      0.00      0.00       431
+      normal       0.46      1.00      0.63       362
+
+    accuracy                           0.46       793
+   macro avg       0.23      0.50      0.31       793
+weighted avg       0.21      0.46      0.29       793
+
+Cross validation folds:3
+
+Scoring metric:accuracy
+Best Params:
+{'C': 10.0, 'gamma': 0.001, 'kernel': 'rbf'}
+Best Estimator:
+SVC(C=10.0, class_weight='balanced', gamma=0.001, probability=True,
+    random_state=0)
+
+Classification Report:
+              precision    recall  f1-score   support
+
+  depression       0.92      0.87      0.90       414
+      normal       0.86      0.91      0.88       347
+
+    accuracy                           0.89       761
+   macro avg       0.89      0.89      0.89       761
+weighted avg       0.89      0.89      0.89       761
+
+Cross validation folds:3
+
+Scoring metric:accuracy
+Best Params:
+{'C': 1.0, 'gamma': 0.001, 'kernel': 'rbf'}
+Best Estimator:
+SVC(class_weight='balanced', gamma=0.001, probability=True, random_state=0)
+
+Classification Report:
+              precision    recall  f1-score   support
+
+  depression       0.96      0.93      0.94        54
+      normal       0.86      0.93      0.89        27
+
+    accuracy                           0.93        81
+   macro avg       0.91      0.93      0.92        81
+weighted avg       0.93      0.93      0.93        81
+
+Cross validation folds:3
+
+Scoring metric:accuracy
+Best Params:
+{'C': 10.0, 'gamma': 0.001, 'kernel': 'rbf'}
+Best Estimator:
+SVC(C=10.0, class_weight='balanced', gamma=0.001, probability=True,
+    random_state=0)
+
+Classification Report:
+              precision    recall  f1-score   support
+
+  depression       0.94      0.91      0.93        90
+      normal       0.89      0.93      0.91        71
+
+    accuracy                           0.92       161
+   macro avg       0.92      0.92      0.92       161
+weighted avg       0.92      0.92      0.92       161
+
+Cross validation folds:3
+
+Scoring metric:accuracy
