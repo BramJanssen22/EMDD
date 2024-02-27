@@ -289,3 +289,21 @@ weighted avg       0.92      0.92      0.92       161
 Cross validation folds:3
 
 Scoring metric:accuracy
+Best Params:
+{'C': 1.0, 'gamma': 0.001, 'kernel': 'rbf'}
+Best Estimator:
+SVC(class_weight='balanced', gamma=0.001, probability=True, random_state=0)
+
+Classification Report:
+              precision    recall  f1-score   support
+
+  depression       0.94      0.91      0.92        85
+      normal       0.90      0.93      0.92        75
+
+    accuracy                           0.92       160
+   macro avg       0.92      0.92      0.92       160
+weighted avg       0.92      0.92      0.92       160
+
+Cross validation folds:3
+
+Scoring metric:accuracy
