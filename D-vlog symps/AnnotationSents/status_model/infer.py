@@ -24,7 +24,7 @@ def main(args):
     ckpt_dir = args.ckpt_dir
     split = args.infer_split
     hparams_dir = os.path.join(dirname(dirname(ckpt_dir)), 'hparams.yaml')
-    hparams = yaml.load(open(hparams_dir), Loader=yaml.FullLoader)
+    hparams = yaml.load(open(hparams_dir),Loader=yaml.Loader)
     max_len = hparams["max_len"]
     uncertain = hparams["uncertain"]
     exp_name = hparams["exp_name"]
@@ -43,6 +43,7 @@ def main(args):
         with torch.no_grad():
             y_hat = clf(x)
             probs = torch.sigmoid(y_hat)
+            # probs = y_hat    # preserve logits here, will do recalibration later
             probs = probs.detach().cpu().numpy()
         del x, y, y_hat, masks
         all_probs.extend(probs)
