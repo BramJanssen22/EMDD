@@ -2,6 +2,7 @@
 *.json
 *.pkl
 lightning_logs/
+data/
 *_output/
 .DS_Store
 Papierwerk/
