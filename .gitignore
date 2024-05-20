@@ -12,4 +12,7 @@ Report/
 
 # Ignore the data directory, except public performance
 data/
+data/plots
 !data/results/depressionResultsOriginal.csv
+/data/plots
+/data/plots
