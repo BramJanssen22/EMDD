@@ -1,9 +1,15 @@
+# Ignore all CSV, JSON, and PKL files
 *.csv
 *.json
 *.pkl
+
+# Ignore specific directories and files
 lightning_logs/
-data/
 *_output/
 .DS_Store
-Papierwerk/
 *.pyc
+Report/
+
+# Ignore the data directory, except public performance
+data/
+!data/results/depressionResultsOriginal.csv
