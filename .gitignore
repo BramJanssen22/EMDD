@@ -13,5 +13,7 @@ Report/
 # Ignore the data directory, except public performance
 data/
 !data/results/depressionResultsOriginal.csv
+!data/results/depressedSymptomComparison.csv
+!data/results/symptomResultsOriginal.csv
 
 
